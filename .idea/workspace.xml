@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3880407-f373-4025-a8c9-2e81941e2cee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Learner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/ZipCodeWilmington.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/InstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/InstructorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/PeopleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/StudentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/InstructorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/PeopleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/ZipCodeWilmington.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/ZipCodeWilmingtonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Trial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Learner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/InstructorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/StudentsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/InstructorsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/ZipCodeWilmingtonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/ZipCodeWilmington.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/PeopleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaces-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.LearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552515595376" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.zipcoder.interfaces" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.io.zipcoder.interfaces in interfaces-1">
+    <configuration name="InstructorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.InstructorsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeopleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.PeopleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.StudentsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipCodeWilmingtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.ZipCodeWilmingtonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.zipcoder.interfaces in interfaces-1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.io.zipcoder.interfaces in interfaces-1" />
+        <item itemvalue="JUnit.ZipCodeWilmingtonTest" />
+        <item itemvalue="JUnit.InstructorsTest" />
+        <item itemvalue="JUnit.StudentsTest" />
+        <item itemvalue="JUnit.PeopleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3880407-f373-4025-a8c9-2e81941e2cee" name="Default Changelist" comment="" />
+      <created>1552166537945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552166537945</updated>
+      <workItem from="1552166542847" duration="234000" />
+      <workItem from="1552276556614" duration="2208000" />
+      <workItem from="1552444067948" duration="5635000" />
+      <workItem from="1552479830988" duration="14783000" />
+      <workItem from="1552512625619" duration="315000" />
+      <workItem from="1552513141164" duration="1403000" />
+      <workItem from="1552514790083" duration="702000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 17h 17m 39s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 17h 20m 46s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 17h 23m 56s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 17h 24m 11s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 17h 24m 43s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 17h 27m 01s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 17h 32m 22s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 18h 04m 27s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 18h 10m 32s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="io_zipcoder_interfaces_in_interfaces-1 - 2019.03.13 at 18h 14m 50s.xml">
+      <configuration name="io.zipcoder.interfaces in interfaces-1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25133000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32921812" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Trial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="118" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/StudentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/InstructorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Learner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/InstructorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/ZipCodeWilmington.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/ZipCodeWilmingtonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/PeopleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>interfaces-1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
