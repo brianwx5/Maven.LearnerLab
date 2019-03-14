@@ -1,6 +1,8 @@
 package io.zipcoder.interfaces;
 
 public class Instructor extends Person implements Teacher {
+    private Double timeWorked = 0.0;
+
     public Instructor(long l) {
         super(l);
     }
@@ -8,6 +10,7 @@ public class Instructor extends Person implements Teacher {
     @Override
     public void teach(Learner learner, Double numberOfHours) {
         learner.learn(numberOfHours);
+        timeWorked += numberOfHours;
     }
 
     @Override
@@ -16,5 +19,10 @@ public class Instructor extends Person implements Teacher {
         for (Learner learner: learners) {
             learner.learn(numberOfHoursPerLearner);
         }
+        timeWorked += numberOfHours;
+    }
+
+    public Double getTimeWorked() {
+        return timeWorked;
     }
 }

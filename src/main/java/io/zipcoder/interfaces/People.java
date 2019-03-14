@@ -1,11 +1,11 @@
 package io.zipcoder.interfaces;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.List;
 
 public abstract class People<E extends Person> {
 
-    protected ArrayList<E> personList;
+    protected List<E> personList;
 
     public People() {
         this.personList = new ArrayList<>();
@@ -15,13 +15,15 @@ public abstract class People<E extends Person> {
         this.personList.add(person);
     }
 
-    public E findById(long id) {
+    public E findById(Long id) {
+        E result = null;
         for (E person : personList) {
-            if (person.getId() == id) {
-                return person;
+            if (person.getId().equals(id)) {
+                result = person;
+                break;
             }
         }
-        return null;
+        return result;
     }
 
     public void remove(Person person) {
@@ -45,7 +47,7 @@ public abstract class People<E extends Person> {
         personList.removeAll(personList);
     }
 
-    public ArrayList<E> getPersonList() {
+    public List<E> getPersonList() {
         return personList;
     }
 

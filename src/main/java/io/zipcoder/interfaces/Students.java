@@ -39,7 +39,7 @@ final public class Students extends People<Student>{
 
     @Override
     public Student[] getArray() {
-        Student[] studentArray = personList.toArray(new Student[0]);
+        Student[] studentArray = personList.toArray(new Student[getPersonList().size()]);
         return studentArray;
     }
 

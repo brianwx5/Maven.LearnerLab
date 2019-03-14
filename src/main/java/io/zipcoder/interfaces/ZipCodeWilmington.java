@@ -15,19 +15,19 @@ public class ZipCodeWilmington {
         return instance;
     }
 
-    public void hostLecture(Teacher teacher, double numberOfHours) {
+    public void hostLecture(Teacher teacher, Double numberOfHours) {
 //        Student[] learner = Arrays.stream(students.getArray())
 //                .toArray(Student[]::new);
-        Student[] learner =students.getArray();
-        teacher.lecture(learner,numberOfHours);
+        Student[] learner = students.getArray();
+        teacher.lecture(learner, numberOfHours);
     }
 
     public void hostLecture(Long id, Double numberOfHours) {
-       Teacher teacher = instructors.findById(id);
+        Instructor teacher = instructors.findById(id);
 //       Student[] learner = Arrays.stream(students.getArray())
 //               .toArray(Student[]::new);
-        Student[] learner =students.getArray();
-       teacher.lecture(learner,numberOfHours);
+        Student[] learner = students.getArray();
+        teacher.lecture(learner, numberOfHours);
     }
 
 }
